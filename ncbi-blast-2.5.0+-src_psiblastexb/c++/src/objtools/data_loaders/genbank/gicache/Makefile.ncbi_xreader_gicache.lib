@@ -1,0 +1,19 @@
+# $Id: Makefile.ncbi_xreader_gicache.lib 484420 2015-11-10 19:50:38Z ucko $
+
+REQUIRES = unix
+
+SRC = reader_gicache gicache_cxx
+
+LIB = ncbi_xreader_gicache
+
+# Build shared version when possible
+LIB_OR_DLL = both
+
+# Dependencies for shared library
+DLL_LIB = ncbi_xreader$(DLL)
+
+WATCHERS = vasilche
+
+
+USES_LIBRARIES =  \
+    ncbi_xreader

@@ -1,0 +1,10 @@
+make[1]: Entering directory `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/build-system/helpers'
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/build-system/helpers/run_with_lock.c.
+make[1]: Leaving directory `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/build-system/helpers'
+make[1]: Entering directory `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/build-system/helpers'
+gcc -c  -g -O2   /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/build-system/helpers/run_with_lock.c -o run_with_lock.o 
+gcc run_with_lock.o -L/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/lib -lm -lpthread -o run_with_lock
+strip run_with_lock
+/bin/sh /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/scripts/common/impl/if_diff.sh /bin/ln -f run_with_lock /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/bin
+/bin/ln -f run_with_lock /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/bin/run_with_lock
+make[1]: Leaving directory `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/build-system/helpers'

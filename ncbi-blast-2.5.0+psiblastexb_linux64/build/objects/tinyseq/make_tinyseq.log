@@ -1,0 +1,13 @@
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objects/tinyseq' に入ります
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/tinyseq/tinyseq___.cpp.
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/tinyseq/tinyseq__.cpp.
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objects/tinyseq' から出ます
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objects/tinyseq' に入ります
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/tinyseq/tinyseq__.cpp -o tinyseq__.o 
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/tinyseq/tinyseq___.cpp -o tinyseq___.o 
+/bin/rm -f libtinyseq.a .libtinyseq.a.stamp
+ar cr libtinyseq.a tinyseq__.o tinyseq___.o  
+/bin/sh /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/scripts/common/impl/if_diff.sh /bin/ln -f libtinyseq.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/lib
+/bin/ln -f libtinyseq.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/lib/libtinyseq.a
+/bin/ln -f .tinyseq.dep /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/status/.tinyseq.dep
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objects/tinyseq' から出ます

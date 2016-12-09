@@ -1,0 +1,16 @@
+make[5]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objtools/blast/gene_info_reader' に入ります
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objtools/blast/gene_info_reader/file_utils.cpp.
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objtools/blast/gene_info_reader/gene_info_reader.cpp.
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objtools/blast/gene_info_reader/gene_info.cpp.
+make[5]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objtools/blast/gene_info_reader' から出ます
+make[5]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objtools/blast/gene_info_reader' に入ります
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNCBI_MODULE=GENEINFO -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objtools/blast/gene_info_reader/gene_info.cpp -o gene_info.o 
+ember function ‘pString, ncbi::CTempString, std::vector<std::basic_string<char> >&, ncbi::NStr::TSplitFlags, std::vector<long unsigned int>*)/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNCBI_MODULE=GENEINFO -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objtools/blast/gene_info_reader/gene_info_reader.cpp -o gene_info_reader.o 
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNCBI_MODULE=GENEINFO -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objtools/blast/gene_info_reader/file_utils.cpp -o file_utils.o 
+ember function ‘&, int, ncbi::CRef<ncbi::CGeneInfo>&)pString, ncbi::CTempString, std::vector<std::basic_string<char> >&, ncbi::NStr::TSplitFlags, std::vector<long unsigned int>*)s);
+/bin/rm -f libgene_info.a .libgene_info.a.stamp
+ar cr libgene_info.a gene_info.o gene_info_reader.o file_utils.o  
+/bin/sh /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/scripts/common/impl/if_diff.sh /bin/ln -f libgene_info.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/lib
+/bin/ln -f libgene_info.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/lib/libgene_info.a
+/bin/ln -f .gene_info.dep /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/status/.gene_info.dep
+make[5]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objtools/blast/gene_info_reader' から出ます

@@ -1,0 +1,15 @@
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objects/seqset' に入ります
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/seqset/gb_release_file.cpp.
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/seqset/seqset___.cpp.
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/seqset/seqset__.cpp.
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objects/seqset' から出ます
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objects/seqset' に入ります
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/seqset/seqset__.cpp -o seqset__.o 
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/seqset/seqset___.cpp -o seqset___.o 
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/seqset/gb_release_file.cpp -o gb_release_file.o 
+/bin/rm -f libseqset.a .libseqset.a.stamp
+ar cr libseqset.a seqset__.o seqset___.o gb_release_file.o  
+/bin/sh /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/scripts/common/impl/if_diff.sh /bin/ln -f libseqset.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/lib
+/bin/ln -f libseqset.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/lib/libseqset.a
+/bin/ln -f .seqset.dep /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/status/.seqset.dep
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objects/seqset' から出ます

@@ -1,0 +1,13 @@
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objects/coords' に入ります
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/coords/objcoords___.cpp.
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/coords/objcoords__.cpp.
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objects/coords' から出ます
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objects/coords' に入ります
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/coords/objcoords__.cpp -o objcoords__.o 
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/coords/objcoords___.cpp -o objcoords___.o 
+/bin/rm -f libobjcoords.a .libobjcoords.a.stamp
+ar cr libobjcoords.a objcoords__.o objcoords___.o  
+/bin/sh /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/scripts/common/impl/if_diff.sh /bin/ln -f libobjcoords.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/lib
+/bin/ln -f libobjcoords.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/lib/libobjcoords.a
+/bin/ln -f .objcoords.dep /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/status/.objcoords.dep
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objects/coords' から出ます

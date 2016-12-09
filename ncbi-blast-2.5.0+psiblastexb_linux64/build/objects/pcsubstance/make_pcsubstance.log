@@ -1,0 +1,13 @@
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objects/pcsubstance' に入ります
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/pcsubstance/pcsubstance___.cpp.
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/pcsubstance/pcsubstance__.cpp.
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objects/pcsubstance' から出ます
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objects/pcsubstance' に入ります
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/pcsubstance/pcsubstance__.cpp -o pcsubstance__.o 
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/pcsubstance/pcsubstance___.cpp -o pcsubstance___.o 
+/bin/rm -f libpcsubstance.a .libpcsubstance.a.stamp
+ar cr libpcsubstance.a pcsubstance__.o pcsubstance___.o  
+/bin/sh /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/scripts/common/impl/if_diff.sh /bin/ln -f libpcsubstance.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/lib
+/bin/ln -f libpcsubstance.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/lib/libpcsubstance.a
+/bin/ln -f .pcsubstance.dep /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/status/.pcsubstance.dep
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/objects/pcsubstance' から出ます
