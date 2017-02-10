@@ -1,4 +1,0 @@
-/usr/bin/make -w -f /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/build-system/Makefile.module MODULE=omssa MODULE_PATH=objects/omssa MODULE_ASN=omssa.asn MODULE_IMPORT='objects/seq/seq' IMPDEPS='/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/seq/seq.asn' IMPFILES='objects/seq/seq.asn' top_srcdir=/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++ DATATOOL=/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/bin/datatool MODULE_SEARCH=/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src all
-make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/omssa' に入ります
-make[4]: `all' に対して行うべき事はありません.
-make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/omssa' から出ます

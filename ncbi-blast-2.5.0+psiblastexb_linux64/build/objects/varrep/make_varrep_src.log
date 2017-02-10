@@ -1,5 +1,0 @@
-/usr/bin/make -w -f /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/build-system/Makefile.module MODULE=varrep MODULE_PATH=objects/varrep MODULE_ASN=varrep.asn MODULE_IMPORT='' IMPDEPS='' IMPFILES='' top_srcdir=/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++ DATATOOL=/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/bin/datatool MODULE_SEARCH=/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src all
-make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/varrep' に入ります
-/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/bin/datatool -oR /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++ -opm /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src -m varrep.asn -M "" -oA -oc varrep -or objects/varrep -odi -od varrep.def -oex '' -ocvs -pch 'ncbi_pch.hpp' -fd varrep.dump 
-datatool: 2.16.0
-make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/varrep' から出ます

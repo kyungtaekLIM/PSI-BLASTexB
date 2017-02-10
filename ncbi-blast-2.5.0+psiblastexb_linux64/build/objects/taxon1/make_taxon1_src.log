@@ -1,4 +1,0 @@
-/usr/bin/make -w -f /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/build-system/Makefile.module MODULE=taxon1 MODULE_PATH=objects/taxon1 MODULE_ASN=taxon1.asn MODULE_IMPORT='objects/seqfeat/seqfeat' IMPDEPS='/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/seqfeat/seqfeat.asn' IMPFILES='objects/seqfeat/seqfeat.asn' top_srcdir=/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++ DATATOOL=/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/bin/datatool MODULE_SEARCH=/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src all
-make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/taxon1' に入ります
-make[4]: `all' に対して行うべき事はありません.
-make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/objects/taxon1' から出ます

@@ -1,4 +1,0 @@
-ifneq "" "$(wildcard $(top_srcdir)/src/cgi/flat-hints.mk)"
-  include $(top_srcdir)/src/cgi/flat-hints.mk
-else
-endif

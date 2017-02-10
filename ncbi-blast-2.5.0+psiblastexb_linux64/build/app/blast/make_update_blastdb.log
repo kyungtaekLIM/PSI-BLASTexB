@@ -1,4 +1,0 @@
-make[5]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/app/blast' に入ります
-/bin/sh /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/scripts/common/impl/if_diff.sh /bin/ln -f /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/app/blast/update_blastdb.pl /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/bin
-/bin/ln -f /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/src/app/blast/update_blastdb.pl /root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/bin/update_blastdb.pl
-make[5]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src/c++/ReleaseMT/build/app/blast' から出ます
