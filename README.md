@@ -22,6 +22,11 @@ Camacho C., Coulouris G., Avagyan V., Ma N., Papadopoulos J., Bealer K., & Madde
 
 Oda T, Lim K, Tomii K. 2016. Simple adjustment of the sequence weight algorithm remarkably enhances PSI-BLAST performance. bioRxiv doi: https://doi.org/10.1101/092742
 
-# Acknowledgement
+# Contact
 
-The files have been uploaded and released on behalf of Toshiyuki Oda.
+Toshiyuki Oda
+
+Artificial Intelligence Research Center, 
+National Institute of Advanced Industrial Science and Technology
+
+e-mail: toshiyuki.oda@aist.go.jp
