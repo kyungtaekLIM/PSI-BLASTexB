@@ -1,0 +1,13 @@
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/objects/cn3d' に入ります
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objects/cn3d/cn3d___.cpp.
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objects/cn3d/cn3d__.cpp.
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/objects/cn3d' から出ます
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/objects/cn3d' に入ります
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objects/cn3d/cn3d__.cpp -o cn3d__.o 
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objects/cn3d/cn3d___.cpp -o cn3d___.o 
+/bin/rm -f libcn3d.a .libcn3d.a.stamp
+ar cr libcn3d.a cn3d__.o cn3d___.o  
+/bin/sh /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/scripts/common/impl/if_diff.sh /bin/ln -f libcn3d.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/lib
+/bin/ln -f libcn3d.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/lib/libcn3d.a
+/bin/ln -f .cn3d.dep /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/status/.cn3d.dep
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/objects/cn3d' から出ます

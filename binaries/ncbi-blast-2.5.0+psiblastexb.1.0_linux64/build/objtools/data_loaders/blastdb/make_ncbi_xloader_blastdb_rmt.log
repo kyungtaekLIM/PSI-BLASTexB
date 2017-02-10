@@ -1,0 +1,13 @@
+make[5]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/objtools/data_loaders/blastdb' に入ります
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objtools/data_loaders/blastdb/remote_blastdb_adapter.cpp.
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objtools/data_loaders/blastdb/bdbloader_rmt.cpp.
+make[5]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/objtools/data_loaders/blastdb' から出ます
+make[5]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/objtools/data_loaders/blastdb' に入ります
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNCBI_MODULE=BLASTDB -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objtools/data_loaders/blastdb/bdbloader_rmt.cpp -o bdbloader_rmt.o 
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNCBI_MODULE=BLASTDB -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objtools/data_loaders/blastdb/remote_blastdb_adapter.cpp -o remote_blastdb_adapter.o 
+/bin/rm -f libncbi_xloader_blastdb_rmt.a .libncbi_xloader_blastdb_rmt.a.stamp
+ar cr libncbi_xloader_blastdb_rmt.a bdbloader_rmt.o remote_blastdb_adapter.o  
+/bin/sh /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/scripts/common/impl/if_diff.sh /bin/ln -f libncbi_xloader_blastdb_rmt.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/lib
+/bin/ln -f libncbi_xloader_blastdb_rmt.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/lib/libncbi_xloader_blastdb_rmt.a
+/bin/ln -f .ncbi_xloader_blastdb_rmt.dep /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/status/.ncbi_xloader_blastdb_rmt.dep
+make[5]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/objtools/data_loaders/blastdb' から出ます

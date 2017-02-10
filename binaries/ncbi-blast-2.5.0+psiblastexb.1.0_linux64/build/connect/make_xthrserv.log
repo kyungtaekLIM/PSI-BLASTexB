@@ -1,0 +1,18 @@
+make[3]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/connect' に入ります
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/connect/connection_pool.cpp.
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/connect/server_monitor.cpp.
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/connect/server.cpp.
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/connect/threaded_server.cpp.
+make[3]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/connect' から出ます
+make[3]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/connect' に入ります
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/connect/threaded_server.cpp -o threaded_server.o 
+_Server; // NCBI_FAKE_WARNING
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/connect/server.cpp -o server.o 
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/connect/server_monitor.cpp -o server_monitor.o 
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/connect/connection_pool.cpp -o connection_pool.o 
+/bin/rm -f libxthrserv.a .libxthrserv.a.stamp
+ar cr libxthrserv.a threaded_server.o server.o server_monitor.o connection_pool.o  
+/bin/sh /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/scripts/common/impl/if_diff.sh /bin/ln -f libxthrserv.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/lib
+/bin/ln -f libxthrserv.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/lib/libxthrserv.a
+/bin/ln -f .xthrserv.dep /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/status/.xthrserv.dep
+make[3]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/connect' から出ます

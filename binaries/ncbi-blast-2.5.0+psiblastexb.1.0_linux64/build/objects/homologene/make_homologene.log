@@ -1,0 +1,13 @@
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/objects/homologene' に入ります
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objects/homologene/homologene___.cpp.
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objects/homologene/homologene__.cpp.
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/objects/homologene' から出ます
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/objects/homologene' に入ります
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objects/homologene/homologene__.cpp -o homologene__.o 
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objects/homologene/homologene___.cpp -o homologene___.o 
+/bin/rm -f libhomologene.a .libhomologene.a.stamp
+ar cr libhomologene.a homologene__.o homologene___.o  
+/bin/sh /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/scripts/common/impl/if_diff.sh /bin/ln -f libhomologene.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/lib
+/bin/ln -f libhomologene.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/lib/libhomologene.a
+/bin/ln -f .homologene.dep /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/status/.homologene.dep
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/objects/homologene' から出ます

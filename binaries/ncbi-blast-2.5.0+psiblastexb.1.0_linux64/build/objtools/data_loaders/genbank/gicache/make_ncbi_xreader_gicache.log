@@ -1,0 +1,27 @@
+make[6]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/objtools/data_loaders/genbank/gicache' に入ります
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objtools/data_loaders/genbank/gicache/gicache_cxx.cpp.
+Updating dependency information for /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objtools/data_loaders/genbank/gicache/reader_gicache.cpp.
+make[6]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/objtools/data_loaders/genbank/gicache' から出ます
+make[6]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/objtools/data_loaders/genbank/gicache' に入ります
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objtools/data_loaders/genbank/gicache/reader_gicache.cpp -o reader_gicache.o 
+/opt/rh/devtoolset-2/root/usr/bin/g++  -std=gnu++11 -c  -Wall -Wno-format-y2k  -pthread -fopenmp -O2   -DNDEBUG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE   -D_MT -D_REENTRANT -D_THREAD_SAFE -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/inc -I/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/include  /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objtools/data_loaders/genbank/gicache/gicache_cxx.cpp -o gicache_cxx.o 
+In file included from pIndexCache(SGiDataIndex*)parison between signed and unsigned integer expressions [-Wsign-compare]
+   if (bytes_written != data_index->m_IndexCacheLen*sizeof(int) && LogFunc) {
+ pDataCache(SGiDataIndex*)parison between signed and unsigned integer expressions [-Wsign-compare]
+   if (bytes_written != data_index->m_DataCacheLen && LogFunc) {
+at ‘ent of type ‘ent 4 has type ‘at=]
+                     data_index->m_FileNamePrefix);
+parison between signed and unsigned integer expressions [-Wsign-compare]
+   if (bytes_written != data_index->m_GiIndexLen*sizeof(Uint4) && LogFunc) {
+at ‘ent of type ‘ent 6 has type ‘at=]
+                 data_index->m_DataLen, data_index->m_FileNamePrefix, open_err);
+at ‘ent of type ‘ent 3 has type ‘at=]
+      sprintf(logmsg, "GI_CACHE: Possible corruption: gi_offset: %lld, gi: %d\n", gi_offset, gi);
+parison between signed and unsigned integer expressions [-Wsign-compare]
+     if (strlen(acc_buf) < acc_len) {
+/bin/rm -f libncbi_xreader_gicache.a .libncbi_xreader_gicache.a.stamp
+ar cr libncbi_xreader_gicache.a reader_gicache.o gicache_cxx.o  
+/bin/sh /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/scripts/common/impl/if_diff.sh /bin/ln -f libncbi_xreader_gicache.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/lib
+/bin/ln -f libncbi_xreader_gicache.a /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/lib/libncbi_xreader_gicache.a
+/bin/ln -f .ncbi_xreader_gicache.dep /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/status/.ncbi_xreader_gicache.dep
+make[6]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/objtools/data_loaders/genbank/gicache' から出ます

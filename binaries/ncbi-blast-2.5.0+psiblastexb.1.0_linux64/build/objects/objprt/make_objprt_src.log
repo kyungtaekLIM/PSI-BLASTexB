@@ -1,0 +1,4 @@
+/usr/bin/make -w -f /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/build-system/Makefile.module MODULE=objprt MODULE_PATH=objects/objprt MODULE_ASN=objprt.asn MODULE_IMPORT='' IMPDEPS='' IMPFILES='' top_srcdir=/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++ DATATOOL=/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/bin/datatool MODULE_SEARCH=/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src all
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objects/objprt' に入ります
+make[4]: `all' に対して行うべき事はありません.
+make[4]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/objects/objprt' から出ます

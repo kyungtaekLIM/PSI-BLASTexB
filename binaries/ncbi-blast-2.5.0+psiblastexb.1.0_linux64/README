@@ -1,0 +1,24 @@
+ PSI-BLAST with extended blocks
+ National Institute of Advanced Industrial Science and Technology
+ Artificial Intelligence Research Center
+ Toshiyuki Oda
+ e-mail:toshiyuki.oda@aist.go.jp
+ 
+ 
+ The source code of BLAST+[1] including PSI-BLAST[2] was downloaded from ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.5.0/ .
+ 
+ Changes I made are
+ *Program description section in 
+ c++/src/algo/blast/format/blast_format.cpp
+ c++/src/algo/blast/blastinput/psiblast_args.cpp
+ 
+ *Block boundary decision routine in
+ c++/src/algo/blast/core/blast_psi_priv.c
+ 
+ Please cite [3] for reference.
+ 
+ 
+ 
+ [1] Camacho C., Coulouris G., Avagyan V., Ma N., Papadopoulos J., Bealer K., & Madden T.L. (2008) "BLAST+: architecture and applications." BMC Bioinformatics 10:421
+ [2] Altschul, S.F., Madden, T.L., Schäffer, A.A., Zhang, J., Zhang, Z., Miller, W. & Lipman, D.J. (1997) "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs." Nucleic Acids Res. 25:3389-3402
+ [3] Oda, T., Lim, K., Tomii, K., (2016) "Simple adjustment of the sequence weight algorithm remarkably enhances PSI-BLAST performance" bioRxiv 092742; doi: https://doi.org/10.1101/092742 

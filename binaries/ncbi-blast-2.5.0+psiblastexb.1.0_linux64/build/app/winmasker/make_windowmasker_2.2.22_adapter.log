@@ -1,0 +1,4 @@
+make[5]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/app/winmasker' に入ります
+/bin/sh /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/scripts/common/impl/if_diff.sh /bin/ln -f /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/app/winmasker/windowmasker_2.2.22_adapter.py /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/bin
+/bin/ln -f /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/src/app/winmasker/windowmasker_2.2.22_adapter.py /root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/bin/windowmasker_2.2.22_adapter.py
+make[5]: ディレクトリ `/root/blasttest/source_upload/ncbi-blast-2.5.0+-src_psiblastexb/c++/ReleaseMT/build/app/winmasker' から出ます

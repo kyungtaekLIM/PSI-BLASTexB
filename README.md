@@ -5,7 +5,7 @@ PSI-BLAST with a new sequence weighting algorithm
 
 Source code is in `src`. You may need GCC version 4.6 or higher.
 
-For LINUX (64-bit) operating systems, binaries are provided in `releases`.
+For LINUX (64-bit) operating systems, binaries are provided in `binaries`.
 
 # Usage
 
